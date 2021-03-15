@@ -1,0 +1,128 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/*navbar*/
+nav {
+    background-color: rgb(102, 25, 25);
+}
+nav.navbar a.navbar-brand {
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+ul li a.navbar-link {
+    color: #fff;
+    margin-left: 2em;
+}
+ul li a.navbar-link:hover {
+    text-decoration: none;
+    color: #000;
+}
+div.dropdown-menu {
+    background-color: rgb(102, 25, 25);
+}
+a.dropdown-item {
+    color: #fff;
+}
+
+/*sezione-foto*/
+#sezione-foto {
+    margin-top: 5em;
+}
+div.align-self-start {
+    margin-right: 0.4em;
+}
+
+/*card-block*/
+#card-block {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#card-block h2 {
+    color: #fff;
+    margin-top: 0.4em;
+}
+p.lead {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 1em;
+}
+/*gredienti*/
+#card-block {
+    background: linear-gradient(45deg, #ba5555 33%, transparent 0%),
+    linear-gradient(45deg, #893737 67%, transparent 33%),
+    linear-gradient(45deg, #ba5555 100%, transparent 67%);
+}
+
+/*card-photo*/
+a.btn {
+    background-color: #ba5555;
+    color: #fff;
+}
+a.btn:hover {
+    background-color: #fff;
+    color: #ba5555;
+}
+/*contatti*/
+#contatti {
+    margin-top: 2em;
+    margin-bottom: 5em;
+}
+#contatti h4 {
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    color: #fff;
+}
+div.form-group label {
+    color: #fff;
+}
+button.btn {
+    margin-bottom: 1em;
+    background-color: #661919;
+    color: #fff;
+}
+button.btn:hover {
+    background-color: #fff;
+    color: #661919;
+}
+/*gradiente*/
+#contatti {
+    background: linear-gradient(-45deg, #893737 33%, transparent 0),
+    linear-gradient(-45deg, #ba5555 67%, transparent 33%),
+    linear-gradient(-45deg, #893737 100%, transparent 67%);
+}
+/*footer*/
+ul li {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+#testo h5 {
+    margin-bottom: 1em;
+    margin-top: -0.2em;
+}
+#social h5 {
+    margin-top: -0.2em;
+}
+i {
+    margin-right: 0.4em;
+}
+
+/*media queries*/
+@media(max-width: 792px){
+    #sezione-foto img {
+        display: none;
+    }
+    #sezione-foto div.col-md-8 {
+        display: none;
+    }
+    #sezione-foto div.col-md-4 {
+    text-align: center;
+    margin-top: 2em;
+    }
+    #card {
+        display: none;
+    }
+}
+@media(max-width: 628px){
+    
+}
