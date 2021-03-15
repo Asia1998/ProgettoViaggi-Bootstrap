@@ -85,6 +85,11 @@ button.btn:hover {
     background-color: #fff;
     color: #661919;
 }
+
+.navbar-collapse {
+    display: none;
+}
+
 /*gradiente*/
 #contatti {
     background: linear-gradient(-45deg, #893737 33%, transparent 0),
